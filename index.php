@@ -68,6 +68,9 @@
     #resetButton {
         background-color: #df1b05;
     }
+    .btn-custom:hover {
+        background-color: #5a4db2;
+    }
     .terms {
         color: #7f8c8d;
         font-size: 12px;
