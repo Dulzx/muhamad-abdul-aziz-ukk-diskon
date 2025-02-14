@@ -124,7 +124,7 @@
 
                     <div class="result-container">
                         <p>Harga barang awal : Rp. <b><?php echo number_format($harga,2,',','.')?></b></p>
-                        <p>Diskon <?php $diskon ?>% : Rp. <b><?php echo number_format($nilai_diskon,2,',','.')?></b></p>
+                        <p>Diskon <?php echo $diskon ?>% : Rp. <b><?php echo number_format($nilai_diskon,2,',','.')?></b></p>
                         <p>Total harga barang : Rp. <b><?php echo number_format($total_harga,2,',','.')?></b></p>
                         <button type="reset" id="resetButton" class="btn btn-custom w-100">Hapus</button>
                     </div>
